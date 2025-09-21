@@ -5,150 +5,237 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Md. Shahariar Islam Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <style>
       body {
-        font-family: 'Inter', sans-serif;
+        font-family: "Inter", sans-serif;
       }
     </style>
   </head>
-  <body class="bg-gradient-to-b from-gray-900 via-gray-800 to-gray-100 text-gray-800">
-
+  <body class="">
     <!-- Banner Section -->
-    <section class="text-white min-h-screen flex flex-col">
+    <section
+      class="bg-gradient-to-b from-gray-900 via-gray-800 to-gray-100 min-h-screen flex flex-col"
+    >
       <!-- Navbar -->
-      <nav class="flex flex-wrap justify-between items-center px-6 py-4 bg-gray-900">
-        <h1 class="text-2xl font-bold">Md. Shahariar Islam</h1>
-        <ul class="flex flex-wrap space-x-4 text-sm mt-2 md:mt-0">
+      <nav
+        class="flex flex-wrap justify-between items-center px-6 md:px-[100px] py-4 bg-gray-900"
+      >
+        <h1 class="text-2xl mx-[100px] font-bold text-white">
+          Md. Shahariar Islam
+        </h1>
+        <ul
+          class="flex flex-wrap mr-[50px] space-x-4 text-sm mt-2 md:mt-0 text-white"
+        >
           <li><a href="#skills" class="hover:text-teal-400">Skills</a></li>
-          <li><a href="#resume" class="hover:text-teal-400">Resume</a></li>
+          <li>
+            <a href="#education" class="hover:text-teal-400">Education</a>
+          </li>
+          <li>
+            <a href="#experience" class="hover:text-teal-400">Experience</a>
+          </li>
           <li><a href="#contact" class="hover:text-teal-400">Contact</a></li>
         </ul>
       </nav>
 
       <!-- Hero Content -->
-      <div class="flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-20 py-12 flex-grow">
+      <div
+        class="flex flex-col-reverse md:flex-row items-center justify-center h-screen px-6 md:px-[100px] py-12 gap-[30px]"
+      >
         <!-- Text Content -->
         <div class="max-w-xl text-center md:text-left">
-          <h2 class="text-4xl font-bold mb-4">Hi, I'm Md. Shahariar Islam</h2>
+          <h2 class="text-2xl  font-bold mb-4 text-white">
+            Hi, I'm Md. Shahariar Islam
+          </h2>
           <p class="text-gray-300 mb-6">
-            I'm a designer & developer with a passion for clean, slick websites. I enjoy developing simple, user-friendly designs that deliver real value.
+            I'm a designer & developer with a passion for clean, slick websites.
+            I enjoy developing simple, user-friendly designs that deliver real
+            value.
           </p>
           <div class="flex flex-wrap justify-center md:justify-start gap-4">
-            <a href="/cv.pdf" download class="bg-teal-500 hover:bg-teal-600 text-white px-6 py-2 rounded">Download CV</a>
-            <a href="#contact" class="bg-transparent border border-white hover:bg-white hover:text-gray-900 px-6 py-2 rounded">Contact</a>
+            <a
+              href="/cv.pdf"
+              download
+              class="bg-teal-500 hover:bg-teal-600 text-white px-6 py-2 rounded"
+              >Download CV</a
+            >
+            <a
+              href="#contact"
+              class="bg-transparent border border-white hover:bg-white hover:text-gray-900 text-white px-6 py-2 rounded"
+              >Contact</a
+            >
           </div>
         </div>
 
         <!-- Image -->
-        <div class="mb-8 md:mb-0">
-          <img src="./Image/joy1.jpg" alt="Md. Shahariar Islam" class="rounded-full shadow-lg w-64 h-64 object-cover mx-auto" />
+        <div class="mb-8 md:mb-0 gap-[50px] p-4 rounded-full">
+          <img
+            src="./Image/joy1.jpg"
+            alt="Md. Shahariar Islam"
+            class="rounded-full shadow-lg w-64 h-64 object-cover mx-auto"
+          />
         </div>
       </div>
     </section>
+    <!-- Banner section is finished. -->
 
-      <!-- Banner section is finished -->
-        <!-- About Me -->
-    <section class="bg-white py-12 px-4" id="about">
-      <h2 class="text-3xl font-bold mb-4 text-center">About Me</h2>
-      <p class="max-w-3xl mx-auto text-gray-700 text-center">
-        I’m a designer & developer with a passion for clean, slick websites. I love building simple, user-friendly designs that deliver real value to users.
+    <!-- About Me -->
+ 
+  <section
+  class="bg-white h-screen flex items-center justify-center px-6 md:px-[100px] "
+  id="about"
+>
+  <div class="max-w-6xl w-full flex flex-col items-center text-center gap-10">
+    <!-- Text Section -->
+    <div class="w-full md:w-2/3">
+      <h2 class="text-4xl font-bold mb-12">About Me</h2>
+      <p class="text-gray-700 text-lg leading-relaxed">
+        I’m a designer & developer with a passion for clean, slick websites.
+        I love building simple, user-friendly designs that deliver real
+        value to users. I am always satisfied when my clients are happy. I
+        provide good service and take pride in both my passion and
+        profession.
       </p>
-      
-    </section>
-    <!-- About me is finished  -->
+    </div>
+  </div>
+</section>
+   <!-- About me is finished  -->
 
     <!-- Skills Section -->
-    <section class="bg-white py-12 px-4" id="skills">
-      <h2 class="text-2xl font-bold mb-6 text-center">Technical Skills</h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
-        <!-- Skill Card -->
-        <div class="bg-gray-100 p-4 rounded shadow text-center">
-          <img src="./Image/js.png" alt="JavaScript" class="mx-auto mb-4" />
-          <h3 class="font-semibold mb-2"> JavaScript</h3>
-          <p class="text-sm text-gray-600">Building dynamic interfaces and interactive features using core JavaScript.</p>
-        </div>
-        <div class="bg-gray-100 p-4 rounded shadow text-center">
-          <img src="./Image/react.png" alt="React" class="mx-auto mb-4" />
-          <h3 class="font-semibold mb-2">React</h3>
-          <p class="text-sm text-gray-600">Creating reusable components and managing state with React and hooks.</p>
-        </div>
-        <div class="bg-gray-100 p-4 rounded shadow text-center">
-          <img src="./Image/nodejs.png" alt="Node.js" class="mx-auto mb-4" />
-          <h3 class="font-semibold mb-2">Node.js</h3>
-          <p class="text-sm text-gray-600">Building scalable backend services and APIs using Node.js and Express.</p>
-        </div>
-        <div class="bg-gray-100 p-4 rounded shadow text-center">
-          <img src="./Image/mongo.png" alt="MongoDB" class="mx-auto mb-4" />
-          <h3 class="font-semibold mb-2">MongoDB</h3>
-          <p class="text-sm text-gray-600">Designing flexible NoSQL databases and integrating with backend logic.</p>
-        </div>
+    <section
+  class="bg-gray-100 h-screen flex items-center justify-center px-6 md:px-[100px]"
+  id="skills"
+>
+  <div class="w-full">
+    <h2 class="text-4xl font-bold mb-10 text-center">Technical Skills</h2>
+    <div
+      class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto"
+    >
+      <!-- Skill Cards -->
+      <div class="bg-gray-100 p-4 rounded shadow text-center">
+        <img src="./Image/js.png" alt="JavaScript" class="mx-auto mb-4" />
+        <h3 class="font-semibold mb-2">JavaScript</h3>
+        <p class="text-sm text-gray-600">
+          Building dynamic interfaces and interactive features using core
+          JavaScript.
+        </p>
       </div>
-    </section>
-
-
-    <!-- Skill section is finished -->
+      <div class="bg-gray-100 p-4 rounded shadow text-center">
+        <img src="./Image/react.png" alt="React" class="mx-auto mb-4" />
+        <h3 class="font-semibold mb-2">React</h3>
+        <p class="text-sm text-gray-600">
+          Creating reusable components and managing state with React and
+          hooks.
+        </p>
+      </div>
+      <div class="bg-gray-100 p-4 rounded shadow text-center">
+        <img src="./Image/nodejs.png" alt="Node.js" class="mx-auto mb-4" />
+        <h3 class="font-semibold mb-2">Node.js</h3>
+        <p class="text-sm text-gray-600">
+          Building scalable backend services and APIs using Node.js and
+          Express.
+        </p>
+      </div>
+      <div class="bg-gray-100 p-4 rounded shadow text-center">
+        <img src="./Image/mongo.png" alt="MongoDB" class="mx-auto mb-4" />
+        <h3 class="font-semibold mb-2">MongoDB</h3>
+        <p class="text-sm text-gray-600">
+          Designing flexible NoSQL databases and integrating with backend
+          logic.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
     <!-- Education Section -->
-    <section class="bg-white py-12 px-4" id="education">
-      <h2 class="text-2xl font-bold mb-6 text-center">My Education</h2>
-      <div class="max-w-5xl mx-auto flex flex-col md:flex-row gap-8">
-        <div class="flex-1 bg-gray-50 p-6 rounded shadow">
-          <h2 class="text-xl font-semibold">Secondary School Certificate</h2>
-          <h6 class="text-sm text-gray-500 mb-2">Bhotmari SC High School / 2019 - 2021</h6>
-          <p class="text-gray-700">Studied advanced software engineering, algorithms, and system design. Built multiple academic projects focused on scalable web applications and user experience.</p>
-        </div>
-        <div class="flex-1 bg-gray-50 p-6 rounded shadow">
-          <h2 class="text-xl font-semibold">Diploma in Computer Science & Technology</h2>
-          <h6 class="text-sm text-gray-500 mb-2">Rangpur Polytechnic Institute / 2022 - 2026</h6>
-          <p class="text-gray-700">Learned core programming, databases, and UI/UX principles. Completed thesis on responsive design and built a portfolio of real-world client projects.</p>
-        </div>
+    <section
+  class="bg-white h-screen flex items-center justify-center px-6 md:px-[100px]"
+  id="education"
+>
+  <div class="w-full max-w-6xl">
+    <h2 class="text-4xl font-bold mb-10 text-center">My Education</h2>
+    <div class="max-w-5xl mx-auto flex flex-col md:flex-row gap-8">
+      <div class="flex-1 bg-gray-50 p-6 rounded shadow">
+        <h2 class="text-xl font-semibold">Secondary School Certificate</h2>
+        <h6 class="text-sm text-gray-500 mb-2">
+          Bhotmari SC High School / 2019 - 2021
+        </h6>
+        <p class="text-gray-700">
+          Studied advanced software engineering, algorithms, and system
+          design. Built multiple academic projects focused on scalable web
+          applications and user experience.
+        </p>
       </div>
-    </section>
-    
-    <!-- Education Section is finished  -->
-
-    <!--Experence section   -->
-
-        <section class="bg-gray-100 py-12 px-4" id="experience">
-           <h2 class="text-2xl font-bold mb-6 text-center">My Experience</h2>
-           <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-    
-    <!-- Experience 1 -->
-    <div class="bg-white p-6 rounded shadow">
-      <h2 class="text-xl font-semibold">Front End Developer</h2>
-      <h6 class="text-sm text-gray-500 mb-2">Industrial attactment in BD calling it ltd</h6>
-      <p class="text-gray-700">
-        Led UI development for flagship Apple apps. Collaborated with cross-functional teams to deliver pixel-perfect interfaces and seamless user experiences across devices.
-      </p>
+      <div class="flex-1 bg-gray-50 p-6 rounded shadow">
+        <h2 class="text-xl font-semibold">
+          Diploma in Computer Science & Technology
+        </h2>
+        <h6 class="text-sm text-gray-500 mb-2">
+          Rangpur Polytechnic Institute / 2022 - 2026
+        </h6>
+        <p class="text-gray-700">
+          Learned core programming, databases, and UI/UX principles. Completed
+          thesis on responsive design and built a portfolio of real-world
+          client projects.
+        </p>
+      </div>
     </div>
+  </div>
+</section>
+         <!-- Education section is finished -->
 
-    <!-- Experience 2 -->
-    <div class="bg-white p-6 rounded shadow">
-      <h2 class="text-xl font-semibold">CSS Developer</h2>
-      <h6 class="text-sm text-gray-500 mb-2">Softvance  / Current </h6>
-      <p class="text-gray-700">
-        Built reusable components and optimized performance. Contributed to design systems and launched multiple high-impact features under tight deadlines.
-      </p>
+    <!-- Experience Section -->
+    <section
+  class="bg-gray-100 h-screen flex items-center justify-center px-6 md:px-[100px]"
+  id="experience"
+>
+  <div class="w-full max-w-6xl">
+    <h2 class="text-4xl font-bold mb-10 text-center">My Experience</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="bg-white p-6 rounded shadow">
+        <h2 class="text-xl font-semibold">Front End Developer</h2>
+        <h6 class="text-sm text-gray-500 mb-2">
+          Industrial attachment in BD Calling IT Ltd
+        </h6>
+        <p class="text-gray-700">
+          Led UI development for flagship Apple apps. Collaborated with
+          cross-functional teams to deliver pixel-perfect interfaces and
+          seamless user experiences across devices.
+        </p>
+      </div>
+      <div class="bg-white p-6 rounded shadow">
+        <h2 class="text-xl font-semibold">CSS Developer</h2>
+        <h6 class="text-sm text-gray-500 mb-2">Softvance / Current</h6>
+        <p class="text-gray-700">
+          Built reusable components and optimized performance. Contributed to
+          design systems and launched multiple high-impact features under
+          tight deadlines.
+        </p>
+      </div>
+      <div class="bg-white p-6 rounded shadow">
+        <h2 class="text-xl font-semibold">HTML Developer</h2>
+        <h6 class="text-sm text-gray-500 mb-2">
+          Programming Club / 2024 to Current
+        </h6>
+        <p class="text-gray-700">
+          Converted design mockups into responsive HTML/CSS templates. Ensured
+          cross-browser compatibility and accessibility across Adobe’s
+          marketing and product pages.
+        </p>
+      </div>
     </div>
-
-    <!-- Experience 3 -->
-    <div class="bg-white p-6 rounded shadow">
-      <h2 class="text-xl font-semibold">HTML Developer</h2>
-      <h6 class="text-sm text-gray-500 mb-2">Programming Club / 2024 to Current</h6>
-      <p class="text-gray-700">
-        Converted design mockups into responsive HTML/CSS templates. Ensured cross-browser compatibility and accessibility across Adobe’s marketing and product pages.
-      </p>
-    </div>
-
   </div>
 </section>
 
     <!-- Experence Section is finished   -->
 
     <!-- Contact Section -->
-    <section class="bg-teal-50 py-12 px-4" id="contact">
-      <h2 class="text-2xl font-bold mb-6 text-center">Let’s Connect</h2>
+    <section class="bg-white-50 py-12 px-4" id="contact">
+      <h2 class="text-4xl font-bold mb-10 text-center">Let’s Connect</h2>
       <div class="max-w-5xl mx-auto flex flex-col md:flex-row gap-8">
         <!-- Contact Details -->
         <div class="flex-1 space-y-4 text-gray-700">
@@ -159,10 +246,26 @@
 
         <!-- Contact Form -->
         <form class="flex-1 space-y-4">
-          <input type="text" placeholder="Your name" class="w-full p-3 border rounded" />
-          <input type="email" placeholder="Your email" class="w-full p-3 border rounded" />
-          <textarea placeholder="Message" class="w-full p-3 border rounded h-32"></textarea>
-          <button type="submit" class="bg-teal-500 text-white px-6 py-2 rounded hover:bg-teal-600">Submit</button>
+          <input
+            type="text"
+            placeholder="Your name"
+            class="w-full p-3 border rounded"
+          />
+          <input
+            type="email"
+            placeholder="Your email"
+            class="w-full p-3 border rounded"
+          />
+          <textarea
+            placeholder="Message"
+            class="w-full p-3 border rounded h-32"
+          ></textarea>
+          <button
+            type="submit"
+            class="bg-teal-500 text-white px-6 py-2 rounded hover:bg-teal-600"
+          >
+            Submit
+          </button>
         </form>
       </div>
     </section>
@@ -172,6 +275,6 @@
     <footer class="bg-gray-900 text-white text-center py-6">
       <p>&copy; 2025 Md. Shahariar Islam. All rights reserved.</p>
     </footer>
-       <!-- Footer section is finished  -->
+    <!-- Footer section is finished  -->
   </body>
 </html>
